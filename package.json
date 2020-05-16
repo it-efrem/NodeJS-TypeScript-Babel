@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-typescript-babel",
+  "version": "1.0.0",
+  "description": "This is sample repository demonstrates how to use NodeJS, TypeScript and Babel",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check --watch",
+    "start": "babel-node -x \".ts\" src/index.ts"
+  },
+  "author": {
+    "name": "it-efrem",
+    "email": "github@it-efrem.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.9.0",
+    "typescript": "3.8.3"
+  }
+}
